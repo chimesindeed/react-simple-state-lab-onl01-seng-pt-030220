@@ -9,7 +9,6 @@ export default class Cell extends React.Component {
     }
   
   render = () => {
-    <div className = 'cell' style = {{backgroundColor: this.state.color}}
+    <div className = 'cell' style = {{backgroundColor: this.state.color}}></div>
   }
   } 
-}

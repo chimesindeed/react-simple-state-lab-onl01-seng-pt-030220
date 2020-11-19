@@ -10,7 +10,7 @@ export default class Cell extends React.Component {
   }
    handleClick = () => {
       return (
-        this.setState({color: '#333'}) // end of this.setState
+        this.setState() // end of this.setState
       )
     }
   render = () => {

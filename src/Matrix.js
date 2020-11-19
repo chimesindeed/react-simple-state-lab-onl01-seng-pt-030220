@@ -21,5 +21,5 @@ export default class Matrix extends Component {
   
 }
 Matrix.defaultProps = {
-  values: ['']
+  values: ['#F00', '#F00', '#F00', '#F00', '']
 }

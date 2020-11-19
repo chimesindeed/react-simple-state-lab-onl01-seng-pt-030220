@@ -9,9 +9,8 @@ export default class Cell extends React.Component {
    
   }
    handleClick = () => {
-      return (
-        this.setState(()=> {return {color: '#333'}}) ) // end of this.setState
-      )
+    return this.setState(() => {return {color: '#333'}})  // end of this.setState
+      
     }
   render = () => {
     return <div className = 'cell' style = {{backgroundColor: this.state.color}} onClick={this.handleClick}> </div>

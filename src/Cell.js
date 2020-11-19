@@ -5,9 +5,8 @@ export default class Cell extends React.Component {
     super(props)
     this.state = {
       color: this.props.value
-          
     }
-  
+  }
   render = () => {
     <div className = 'cell' style = {{backgroundColor: this.state.color}}></div>
   }

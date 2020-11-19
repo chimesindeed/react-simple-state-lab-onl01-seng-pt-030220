@@ -8,6 +8,6 @@ export default class Cell extends React.Component {
     }
   }
   render = () => {
-    <div className = 'cell' style = {{backgroundColor: this.state.color}} onClick={(()=>{this.setState({color: '#333' })})}></div>
+    <div className = 'cell' style = {{backgroundColor: this.state.color}} </div>
   }
   } 
